@@ -1,0 +1,209 @@
+﻿.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.ftco-navbar-light {
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 15;
+    padding-right: 15;
+    z-index: 3;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+nav {
+    display: block;
+}
+
+body {
+    font-family: "Poppins",Arial,sans-serif;
+    overflow-x: hidden;
+}
+
+.oi {
+    position: relative;
+    top: 1px;
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ftco-navbar-light .container {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 30px;
+    top: -5px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0px;
+    padding: 0.25rem 0.75rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+
+.navbar-toggler {
+    position: relative;
+    right: 0px;
+    padding: 0.25rem 0.75rem;
+    line-height: 1;
+    background-color: transparent;
+    border-radius: 0.25rem;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+input, button, select, optgroup, textarea {
+    font-family: inherit;
+    margin: 0;
+}
+
+.ftco-navbar-light .navbar-toggler {
+    border: none;
+    color: rgba(0, 0, 0, 0.7)!important;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em;
+}
+
+.ftco-navbar-light .navbar-brand {
+    color: #000;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    display: inline-block;
+    margin-right: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+}
+
+.navbar-collapse {
+    -webkit-box-align: center;
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    right: 0px;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(0, 0, 0);
+}
+
+a:hover {
+    transition: .3s all ease;
+    color: rgb(0, 140, 255);
+}
+
+.image {
+    position: relative;
+    width: 80%;
+    height: 750px;
+    margin: 0 auto;
+    text-align: right;
+    z-index: -1;
+}
+
+.img1 {
+    position: relative;
+    width: 60%;
+    bottom: -10%;
+    right: 13%;
+}
+
+.random-box {
+    position: absolute;
+    width: 40%;
+    top: -30px;
+    right: -30px;
+    padding: 15%;
+    margin: 20px;
+    display: block;
+    background-color: rgb(164, 204, 255);
+    z-index: -2;
+}
+
+.text {
+    position: absolute;
+    width: 40%;
+    top: 25%;
+    left: 10%;
+    text-align: left;
+}
+
+.subheading {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #0075f6
+}
+
+h1 {
+    font-size: 80px;
+    color: #000000;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.color {
+    color: #0075f6;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.btn-custom {
+    border: 1px solid #0075f6;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #0075f6;
+}
