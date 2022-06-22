@@ -1,0 +1,182 @@
+﻿html, body {
+    height: 100%;
+    font-family: "Lato",sans-serif;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    display: block;
+}
+
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+div {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+#teltopo {
+    position: static;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 1.0);
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.numero {
+    width: 40%;
+    float: right;
+    font-size: 16px;
+}
+
+#teltopo > div > span {
+    color: rgba(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#teltopo > div a {
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    text-decoration: none;
+}
+
+div#teletopo.style {
+    display: block;
+}
+
+div#topo.top-bar.style {
+    top: 0;
+}
+
+.top-bar {
+    background: rgba(0, 0, 0, 0.7);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    width: 100%;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-course {
+    text-align: center;
+    border: solid rgb(0, 185, 86);
+    width: 100%;
+    height: 1500px;
+    z-index: -1;
+}
+
+.banner_img {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 73.9375em;
+    margin: 0 auto;
+}
+
+.banner__logo {
+    width: 185px;
+    height: 50px;
+    background: url(https://www.cotemig.com.br/assets/img/logo-white-x.png) no-repeat center center/contain;
+}
+
+.mensagem {
+    border: solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.banner {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text_color{
+    color: rgba(255, 255, 255);
+}
+
+.banner_text1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 2.375em;    
+    font-weight: 900;
+}
+
+.banner_text2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 1em;
+}
+
+
+.button_banner {
+    position: absolute;
+    font-weight: 700;
+    top: 60%;
+    left: 10%;
+    background: #40aa0b;
+    border-radius: 8px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__content {
+    border: solid rgb(219, 0, 0);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 57% !important;
+}
+
+.choose-course h2 {
+    font-size: 2.5em;
+    padding: 0.5em 1em 0;
+    font-weight: 900;
+    text-align: center;
+    color: #111111;
+}
